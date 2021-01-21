@@ -1,0 +1,17 @@
+body {
+    background: grey;
+}
+
+header {
+    width: 500px;
+    margin: 0 auto;
+}
+
+form div {
+    display: flex;
+}
+
+pre {
+    background-color: red;
+    color: white;
+}
