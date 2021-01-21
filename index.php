@@ -4,18 +4,8 @@ var_dump($_POST);
 var_dump($_FILES);
 echo '</pre>';
 
-// fonction retaure 
-function restor($a){
-    if (isset($_POST[$a])) {
-        echo (htmlspecialchars($_POST[$a]));
-    }
-}
-function restorCheck($a){
-    if (isset($_POST[$a])){
-        echo('checked="checked"');
-    }
 
-}
+require 'function/function.php';
 
 // debug
 

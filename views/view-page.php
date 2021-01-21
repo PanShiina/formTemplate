@@ -34,11 +34,11 @@
         </div>
         <div class="form-check">Civilité :
             <label class="form-check-label">
-            <input type="radio" class="form-check-input" name="Civ" id="" value="homme" >
+            <input type="radio" class="form-check-input" name="Civ" id="" value="homme" <?php restorRadio("Civ", "homme")?> >
             Homme
           </label>
             <label class="form-check-label">
-            <input type="radio" class="form-check-input" name="Civ" id="" value="femme" >
+            <input type="radio" class="form-check-input" name="Civ" id="" value="femme" <?php restorRadio("Civ", "femme")?> >
             Femme
           </label>
         </div>
