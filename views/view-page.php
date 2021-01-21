@@ -34,11 +34,11 @@
         </div>
         <div class="form-check">Civilité :
             <label class="form-check-label">
-            <input type="radio" class="form-check-input" name="Civ1" id="" value="homme" <?php restorcheck("Civ1") ?>>
+            <input type="radio" class="form-check-input" name="Civ" id="" value="homme" >
             Homme
           </label>
             <label class="form-check-label">
-            <input type="radio" class="form-check-input" name="Civ2" id="" value="femme" <?php restorcheck("Civ2") ?>>
+            <input type="radio" class="form-check-input" name="Civ" id="" value="femme" >
             Femme
           </label>
         </div>
@@ -49,10 +49,10 @@
         </div>
         <div class="form-check">
           <label class="form-check-label">Activitées:
-            <input type="checkbox" class="form-check-input" name="activitee" id="" value="Foot">
+            <input type="checkbox" class="form-check-input" name="activitee1" id="" value="Foot" <?php restorCheck("activitee1") ?> >
             Foot
           </label>
-          <input type="checkbox" class="form-check-input" name="activitee" id="" value="Gaming">
+          <input type="checkbox" class="form-check-input" name="activitee2" id="" value="Gaming" <?php restorCheck("activitee2") ?>>
             Gaming
           </label>
         </div>

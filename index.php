@@ -10,10 +10,11 @@ function restor($a){
         echo (htmlspecialchars($_POST[$a]));
     }
 }
-function restorcheck($a){
-    if (isset($_POST[$a])) {
-        echo('checked');
+function restorCheck($a){
+    if (isset($_POST[$a])){
+        echo('checked="checked"');
     }
+
 }
 
 // debug
